@@ -1,16 +1,18 @@
 function firstWord(s) {
   // your code here
-	let n = s.length;
-    let i=0;
-    while(i<n && s[i]===' ') {
+	
+let n = s.length;
+      let i=0;
+      //console.log(n);
+      while(i<n && s[i]===' ') {
         i++;
-    }
-    let ans='';
-    while(i<n && s[i]!==' ') {
+      }
+      let ans = '';
+      while(i<n && s[i]!==' ') {
         ans=ans+s[i];
         i++;
-    }
-    return ans;
+      }
+	return ans;
 } 
 
 // Do not change the code below
